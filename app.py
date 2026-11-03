@@ -240,7 +240,7 @@ def home():
 
                 <div class="card">
                     <div class="status">● LIVE</div>
-                    <h2>TIETOKANTA EI UNOHDA 🧠</h2>
+                    <h2>TIETOKANTA EI UNOHDA...</h2>
                     <p>
                         Kävijälaskuri tallennetaan MariaDB-tietokantaan.
                         Flask päivittää tietokannan arvoa jokaisella sivulatauksella,
@@ -250,7 +250,7 @@ def home():
 
                 <div class="card">
                     <div class="status">● VERIFIED</div>
-                    <h2>REBOOT SURVIVED ✅</h2>
+                    <h2>REBOOT SURVIVED</h2>
                     <p>
                         Palvelin on käynnistetty uudelleen onnistuneesti.
                         Flask-sovellus käynnistyi automaattisesti systemd-palveluna
@@ -261,7 +261,7 @@ def home():
 
                 <div class="card">
                     <div class="status">● STACK</div>
-                    <h2>TEKNIIKKAPINO 🥞</h2>
+                    <h2>VÄHÄN TEKNIIKKAA</h2>
                     <p>
                         Ubuntu 24.04 · Nginx · Python · Flask · Gunicorn · MariaDB
                     </p>
