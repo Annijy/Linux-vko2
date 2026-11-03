@@ -226,14 +226,15 @@ def home():
                 </div>
 
                 <div class="card">
-                    <div class="status">● PERSISTENT</div>
-                    <h2>Uudelleenkäynnistystesti</h2>
-                    <p>
-                        Palvelimen uudelleenkäynnistystesti tehdään lopuksi.
-                        Tavoitteena on varmistaa, että kävijälaskurin arvo säilyy
-                        ja Flask-sovellus käynnistyy automaattisesti uudelleen.
-                    </p>
-                </div>
+    <div class="status">● VERIFIED</div>
+    <h2>Uudelleenkäynnistystesti</h2>
+    <p>
+        Palvelin on käynnistetty uudelleen onnistuneesti.
+        Flask-sovellus käynnistyi automaattisesti systemd-palveluna
+        ja MariaDB:hen tallennettu kävijälaskuri säilytti arvonsa
+        uudelleenkäynnistyksen jälkeen.
+    </p>
+</div>
 
                 <div class="card">
                     <div class="status">● STACK</div>
